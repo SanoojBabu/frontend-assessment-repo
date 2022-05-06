@@ -23,8 +23,7 @@ function Projects(props) {
       <form>
         <table>
           <tbody>
-            <tr>
-              <td>
+            <tr align="center">
                 <label>
                   <input
                     //onChange={change}
@@ -63,13 +62,11 @@ function Projects(props) {
                     //value={//values.desc3}
                   />
                 </label>
-              </td>
             </tr>
             <br />
             <br />
             <h3 align="center">PROJECT 2</h3>
-            <tr>
-              <td>
+            <tr align="center">
                 <label>
                   <input
                     //onChange={change}
@@ -108,7 +105,6 @@ function Projects(props) {
                     //value={//values.desc4}
                   />
                 </label>
-              </td>
             </tr>
             <br />
             <br />
