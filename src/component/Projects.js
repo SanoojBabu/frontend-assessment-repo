@@ -1,14 +1,14 @@
 import React from "react";
 import "./Resume.css";
 function Projects(props) {
-  const [values, setValues] = props.key;
-  let change = (props) => {
-    const { name, value } = props.target;
-    setValues({ ...values, [name]: value });
-  };
+  // const [//values, set//values] = props.key;
+  // let change = (props) => {
+  //   const { name, //value } = props.target;
+  //   set//values({ ...//values, [name]: //value });
+  // };
   // let submitHandler = (e) => {
   //   e.preventDefault();
-  //   setValues(values);
+  //   set//values(//values);
   // };
   const nextPage = () => {
     props.history.push("/Experience");
@@ -27,26 +27,26 @@ function Projects(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="title1"
                     className="title"
                     type="text"
                     class="form-control"
                     placeholder="Title*"
-                    value={values.title1}
+                    //value={//values.title1}
                   />
                 </label>
                 <br />
                 <br />
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="link1"
                     className="link"
                     type="text"
                     class="form-control"
                     placeholder="Link*"
-                    value={values.link1}
+                    //value={//values.link1}
                   />
                 </label>
 
@@ -54,13 +54,13 @@ function Projects(props) {
                 <br />
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="desc3"
                     className="description"
                     type="text"
                     class="form-control"
                     placeholder="Description*"
-                    value={values.desc3}
+                    //value={//values.desc3}
                   />
                 </label>
               </td>
@@ -72,26 +72,26 @@ function Projects(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="title2"
                     className="title"
                     type="text"
                     class="form-control"
                     placeholder="Title*"
-                    value={values.title2}
+                    //value={//values.title2}
                   />
                 </label>
                 <br />
                 <br />
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="link2"
                     className="link"
                     type="text"
                     class="form-control"
                     placeholder="Link*"
-                    value={values.link2}
+                    //value={//values.link2}
                   />
                 </label>
 
@@ -99,13 +99,13 @@ function Projects(props) {
                 <br />
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="desc4"
                     className="description"
                     type="text"
                     class="form-control"
                     placeholder="Description*"
-                    value={values.desc4}
+                    //value={//values.desc4}
                   />
                 </label>
               </td>

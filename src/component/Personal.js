@@ -2,14 +2,14 @@ import React from "react";
 import "./Resume.css";
 
 function Personal(props) {
-  const [values,setValues]=props.key;
-  let change = (props) => {
-    const { name, value } = props.target;
-    setValues({ ...values, [name]: value });
-  };
+  // const [//values,set//values]=props.key;
+  // let change = (props) => {
+  //   const { name, //value } = props.target;
+  //   set//values({ ...//values, [name]: //value });
+  // };
   // let submitHandler = (e) => {
   //   e.preventDefault();
-  //   setValues(values);
+  //   set//values(//values);
   // };
   const nextPage = () => {
     props.history.push("/Education");
@@ -24,23 +24,23 @@ function Personal(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    // //onChange={change}
                     type="text"
                     class="form-control"
                     placeholder="FirstName"
                     name="fname"
-                    value={values.fname}
+                    // //value={//values.fname}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    // //onChange={change}
                     name="lname"
                     type="text"
                     class="form-control"
                     placeholder="LastName"
-                    value={values.lname}
+                    // //value={//values.lname}
                   />
                 </label>
               </td>
@@ -51,24 +51,24 @@ function Personal(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    // //onChange={change}
                     name="email"
                     className="email"
                     type="email"
                     class="form-control"
                     placeholder="Email Id"
-                    value={values.email}
+                    // //value={//values.email}
                   />
                 </label>
                 &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    // //onChange={change}
                     name="phnumber"
                     type="text"
                     class="form-control"
                     placeholder="Phone Number"
-                    value={values.phnumber}
+                    //value={//values.phnumber}
                   />
                 </label>
               </td>
@@ -79,23 +79,23 @@ function Personal(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="website"
                     type="text"
                     class="form-control"
                     placeholder="Your Website"
-                    value={values.website}
+                    //value={//values.website}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="github"
                     type="text"
                     class="form-control"
                     placeholder="GitHub"
-                    value={values.github}
+                    //value={//values.github}
                   />
                 </label>
               </td>
@@ -106,23 +106,23 @@ function Personal(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="linkedin"
                     type="text"
                     class="form-control"
                     placeholder="LinkedIn"
-                    value={values.linkedin}
+                    //value={//values.linkedin}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="twitter"
                     type="text"
                     class="form-control"
                     placeholder="Twitter"
-                    value={values.twitter}
+                    //value={//values.twitter}
                   />
                 </label>
               </td>
@@ -133,23 +133,23 @@ function Personal(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="facebook"
                     type="text"
                     class="form-control"
                     placeholder="FaceBook"
-                    value={values.facebook}
+                    //value={//values.facebook}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="instagram"
                     type="text"
                     class="form-control"
                     placeholder="Instagram"
-                    value={values.instagram}
+                    //value={//values.instagram}
                   />
                 </label>
               </td>

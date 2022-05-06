@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 import IconButton from "@material-ui/core/IconButton";
 import Button from "@material-ui/core/Button";
 import MenuIcon from "@material-ui/icons/Menu";
-import useRouting from "./routing";
+import routing from "./routing";
 
 function App() {
   return (
@@ -35,7 +35,7 @@ function App() {
           </Toolbar>
         </AppBar>
       </div>
-      <div>{useRouting}</div>
+      <div>{routing}</div>
     </div>
   );
 }

@@ -1,14 +1,14 @@
 import React from "react";
 import "./Resume.css";
 function Extra(props) {
-  const [values, setValues] = props.key;
-  let change = (props) => {
-    const { name, value } = props.target;
-    setValues({ ...values, [name]: value });
-  };
+  // const [//values, set//values] = props.key;
+  // let change = (props) => {
+  //   const { name, //value } = props.target;
+  //   set//values({ ...//values, [name]: //value });
+  // };
   // let submitHandler = (e) => {
   //   e.preventDefault();
-  //   setValues(values);
+  //   set//values(//values);
   // };
   const prevPage = () => {
     props.history.push("/Experience");
@@ -22,34 +22,34 @@ function Extra(props) {
               <h3>SKILLS/LANGUAGES</h3>
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill1"
                   type="text"
                   class="form-control"
                   placeholder="Skill 1"
-                  value={values.skill1}
+                  //value={//values.skill1}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill2"
                   type="text"
                   class="form-control"
                   placeholder="Skill 2"
-                  value={values.skill2}
+                  //value={//values.skill2}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill3"
                   type="text"
                   class="form-control"
                   placeholder="Skill 3"
-                  value={values.skill3}
+                  //value={//values.skill3}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -61,34 +61,34 @@ function Extra(props) {
             <td>
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill4"
                   type="text"
                   class="form-control"
                   placeholder="Skill 4"
-                  value={values.skill4}
+                  //value={//values.skill4}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill5"
                   type="text"
                   class="form-control"
                   placeholder="Skill 5"
-                  value={values.skill5}
+                  //value={//values.skill5}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="skill6"
                   type="text"
                   class="form-control"
                   placeholder="Skill 6"
-                  value={values.skill6}
+                  //value={//values.skill6}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -101,34 +101,34 @@ function Extra(props) {
               <h3>INTEREST</h3>
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest1"
                   type="text"
                   class="form-control"
                   placeholder="Interest 1"
-                  value={values.interest1}
+                  //value={//values.interest1}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest2"
                   type="text"
                   class="form-control"
                   placeholder="Interest 2"
-                  value={values.interest2}
+                  //value={//values.interest2}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest3"
                   type="text"
                   class="form-control"
                   placeholder="Interest 3"
-                  value={values.interest3}
+                  //value={//values.interest3}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -140,34 +140,34 @@ function Extra(props) {
             <td>
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest4"
                   type="text"
                   class="form-control"
                   placeholder="Interest 4"
-                  value={values.interest4}
+                  //value={//values.interest4}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest5"
                   type="text"
                   class="form-control"
                   placeholder="Interest 5"
-                  value={values.interest5}
+                  //value={//values.interest5}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
               <label>
                 <input
-                  onChange={change}
+                  //onChange={change}
                   name="interest6"
                   type="text"
                   class="form-control"
                   placeholder="Interest 6"
-                  value={values.interest6}
+                  //value={//values.interest6}
                 />
               </label>
               &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;

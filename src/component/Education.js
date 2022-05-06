@@ -1,14 +1,14 @@
 import React from "react";
 import "./Resume.css";
 function Education(props) {
-  const [values, setValues] = props.key;
-  let change = (props) => {
-    const { name, value } = props.target;
-    setValues({ ...values, [name]: value });
-  };
+  // const [//values, set//values] = props.key;
+  // let change = (props) => {
+  //   const { name, //value } = props.target;
+  //   set//values({ ...//values, [name]: //value });
+  // };
   // let submitHandler = (e) => {
   //   e.preventDefault();
-  //   setValues(values);
+  //   set//values(//values);
   // };
   const nextPage = () => {
     props.history.push("/Projects");
@@ -26,34 +26,34 @@ function Education(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="college"
                     type="text"
                     class="form-control"
                     placeholder="College/University*"
-                    value={values.college}
+                    //value={//values.college}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="date1"
                     type="date"
                     class="form-control"
                     placeholder="dd-mm-yyyy"
-                    value={values.date1}
+                    //value={//values.date1}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="date2"
                     type="date"
                     class="form-control"
                     placeholder="dd-mm-yyyy"
-                    value={values.date2}
+                    //value={//values.date2}
                   />
                 </label>
               </td>
@@ -64,24 +64,24 @@ function Education(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="qualification1"
                     type="text"
                     class="form-control"
                     placeholder="Qualification*"
-                    value={values.qualification1}
+                    //value={//values.qualification1}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="desc1"
                     className="desc1"
                     type="text"
                     class="form-control"
                     placeholder="Description*"
-                    value={values.desc1}
+                    //value={//values.desc1}
                   />
                 </label>
               </td>
@@ -92,34 +92,34 @@ function Education(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="school"
                     type="text"
                     class="form-control"
                     placeholder="School*"
-                    value={values.school}
+                    //value={//values.school}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="date3"
                     type="date"
                     class="form-control"
                     placeholder="dd-mm-yyyy"
-                    value={values.date3}
+                    //value={//values.date3}
                   />
                 </label>
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="date4"
                     type="date"
                     class="form-control"
                     placeholder="dd-mm-yyyy"
-                    value={values.date4}
+                    //value={//values.date4}
                   />
                 </label>
               </td>
@@ -130,7 +130,7 @@ function Education(props) {
               <td>
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="qualification2"
                     type="text"
                     class="form-control"
@@ -140,7 +140,7 @@ function Education(props) {
                 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
                 <label>
                   <input
-                    onChange={change}
+                    //onChange={change}
                     name="desc2"
                     className="desc2"
                     type="text"
